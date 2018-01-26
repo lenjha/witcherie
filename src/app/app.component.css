@@ -1,0 +1,28 @@
+header {
+  /*background-color: #c5f9e8;*/
+  background-image: url("..//css/wild_flowers.png");
+  padding: 15px;
+}
+
+.main-view {
+  font-family: monospace;
+}
+
+.navbar li{
+  list-style: none;
+  display: inline-flex;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: salmon;
+}
