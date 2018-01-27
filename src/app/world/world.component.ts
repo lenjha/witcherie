@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Item } from '../item.model';
+import { Shop, Item } from '../item.model';
 
 @Component({
   selector: 'app-world',

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Item } from '../item.model';
+import { Shop, Item } from '../item.model';
 
 @Component({
   selector: 'app-community',
@@ -8,23 +8,31 @@ import { Item } from '../item.model';
 })
 export class CommunityComponent implements OnInit {
 
+  shopType: Shop = null;
+
+  shop: Shop[]=[
+    new Shop("Clanker's","Shop selling equipment", "equipment"),
+    new Shop("Bits an' Bobs","Shop selling ingredients and components", "ingredient")
+  ];
+
   items: Item [] =[
-    new Item("Aging Pot","Mysterious device for aging components."),
-    new Item("Drying Rack","Basic equipment for drying."),
-    new Item("Glass Bottle","Commonly-used and aesthetically-pleasing vessel."),
-    new Item("Iron Nails","Some iron nails.  Repulses some beings."),
-    new Item("Lavandula","A widely-cultivated plant often used in cooking and oil production."),
-    new Item("Lavandula Oil","Known for its antiseptic, bug-repelling, and anti-inflammatory properties."),
-    new Item("Mortar & Pestle","Basic equipment for grinding and crushing."),
-    new Item("Moss","Moss."),
-    new Item("Phosphophyllite","A very delicate and rare mineral."),
-    new Item("Swamp Water","It smells... swampy."),
-    new Item("Vodka","Liquid potato."),
-    new Item("War Water","Filters disruptions and restores peace.")
+    new Item("Aging Pot","Mysterious device for aging components.", "equipment"),
+    new Item("Drying Rack","Basic equipment for drying.", "equipment"),
+    new Item("Glass Bottle","Commonly-used and aesthetically-pleasing vessel.", "equipment"),
+    new Item("Iron Nails","Some iron nails.  Repulses some beings.", "equipment"),
+    new Item("Lavandula","A widely-cultivated plant often used in cooking and oil production.", "ingredient"),
+    new Item("Lavandula Oil","Known for its antiseptic, bug-repelling, and anti-inflammatory properties.", "ingredient"),
+    new Item("Mortar & Pestle","Basic equipment for grinding and crushing.", "equipment"),
+    new Item("Moss","Moss.", "ingredient"),
+    new Item("Phosphophyllite","A very delicate and rare mineral.", "ingredient"),
+    new Item("Swamp Water","It smells... swampy.", "ingredient"),
+    new Item("Vodka","Liquid potato.", "ingredient"),
+    new Item("War Water","Filters disruptions and restores peace.", "ingredient")
   ];
   // Aging Pot + Swamp Water + Iron Nails = War Water
 
-  constructor() { }
+  constructor(
+  ) { }
 
   ngOnInit() {
   }
