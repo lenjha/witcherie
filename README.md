@@ -19,6 +19,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 |  8:51  | README.md has essentials laid out, some reflection-time  |  Markdown language tricks were researched |
 |  9:05  | Write out a couple weaknesses and strengths, looked up some Pomodoro timers but was disappointed  |   |
 |  9:19  | Plot out Witcherie site, read up on SQL  |   |
+|  10:00  | Began to lose track of time around this time  |   |
+|  1:22  | Realize I lost track of time and had spent time relearning CSS  |   |
+|  1:22  | Create a Twitter and figure out some accounts to follow |   |
 
 ### Strengths
 * Typing speed - consistently above 70 wpm (usually around 85-ish?)
